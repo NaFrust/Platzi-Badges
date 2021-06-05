@@ -14,7 +14,7 @@ class BadgesList extends React.Component{
                                         <strong>{badge.firstName} {badge.lastName}</strong>
                                     </div>
                                     <div className="Twitter__name">
-                                        <span className="Twitter__logo">@{badge.twitter}</span>
+                                        <span className="Twitter__logo ">@{badge.twitter}</span>
                                     </div>
                                     <div>
                                         {badge.jobTitle}
